@@ -106,7 +106,6 @@ section > div > h2 {
 #banner {
     z-index: 2;
     min-height: 30px;
-    height: min-content;
     display: flex;
     flex-direction: column;
     align-items: center;
