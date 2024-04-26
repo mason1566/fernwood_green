@@ -1,11 +1,44 @@
+/* CUSTOM THEME STUFF */
 :root {
     --fernwood-green: #0e4d27;
+}
+
+/* FONTS */
+@font-face {
+    font-family: bayon;
+    src: url(fonts/Bayon-Regular.ttf);
+}
+
+@font-face {
+    font-family: gorilla;
+    src: url(fonts/ITC\ Gorilla\ Regular.otf);
+}
+
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: gorilla;
 }
 
 .bg-fernwood-green {
     background-color: var(--fernwood-green);
 }
 
-img {
-    width: 300px;
+#navbar {
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.587);
+    padding: 20px 0;
+}
+
+a {
+    padding: 0px 7px !important;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+}
+
+#heroImage {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
 }
