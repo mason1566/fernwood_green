@@ -1,0 +1,11 @@
+:root {
+    --fernwood-green: #0e4d27;
+}
+
+.bg-fernwood-green {
+    background-color: var(--fernwood-green);
+}
+
+img {
+    width: 300px;
+}
