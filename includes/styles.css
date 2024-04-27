@@ -147,7 +147,9 @@ section > div > h2 {
 
 footer {
     min-height: 2.1rem;
-    box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.33);
+    /* box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.33); */
+    /* box-shadow: inset 0 -5px 20px 0px rgba(0, 0, 0, 0.33); */
+    border: inset 15px solid black;
 }
 
 .footer-icon {
